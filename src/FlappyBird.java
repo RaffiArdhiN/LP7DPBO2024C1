@@ -94,7 +94,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
                         if (pipe.getImage() == upperPipeImage) {
                             score++;
                         }
-                        pipe.setPassed(false); // Reset status passed untuk pipa
+                        pipe.setPassed(false);
                     }
                     continue;
                 }
